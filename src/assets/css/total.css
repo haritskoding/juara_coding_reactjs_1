@@ -1,0 +1,12 @@
+.total {
+  position: fixed;
+  bottom: 0 !important;
+  width: 500px;
+  color: white;
+  padding: 33px 20px 45px 20px;
+  font-size: 21px;
+  z-index: 1;
+  background: #f7497d;
+  font-weight: bold;
+  margin-bottom: 2px;
+}

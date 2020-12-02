@@ -1,0 +1,28 @@
+.menuItem {
+  position: fixed;
+  width: 1200px !important;
+  height: 100vh;
+  padding: 10px !important;
+  overflow: auto;
+  margin: -180px auto !important;
+  max-height: 100vh;
+}
+
+.menuItem::-webkit-scrollbar {
+  display: none;
+}
+
+.menuCard {
+  min-height: 510px !important;
+  max-height: 510px;
+}
+
+.desc {
+  min-height: 100px;
+  max-height: 100px;
+  overflow: hidden;
+}
+
+h1 {
+  color: black;
+}

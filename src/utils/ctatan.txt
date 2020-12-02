@@ -1,0 +1,64 @@
+  // handleSubmit = (e) => {
+  //   e.preventDefault();
+
+  //   let id = this.state.id + 1;
+
+  //   const newData = {
+  //     id: id,
+  //     title: this.state.title,
+  //     category: this.state.category,
+  //     description: this.state.description,
+  //     price: this.state.price,
+  //     image: this.state.image
+  //     // totalGaji: this.state.totalGaji + this.state.gaji
+  //   }
+
+  //   const updateItems = [...this.state.datas, newData];
+
+  //   let { datas, title } = this.state;
+
+  //   let singleObjekNama = [];
+  //   for (let i = 0; i < datas.length; i++) {
+  //     singleObjekNama.push(this.state.datas[i].title)
+  //   };
+
+  //   // let totalGaji = [];
+  //   // for (let i = 0; i < datas.length; i++) {
+  //   //   totalGaji.push(this.state.datas[i].gaji)
+  //   // };
+
+  //   console.log('kiti', title);
+  //   console.log('database ', updateItems);
+  //   // console.log('singel ', singleObjekNama);
+  //   // console.log('tc', datas);
+  //   // console.log('total gaji ', totalGaji);
+
+  //   console.log('data skrg ', datas);
+  //   // for (let a = 0; a < updateItems.length; datas++) {
+
+  //   // }
+
+  //   if (this.state.title === '') {
+  //     alert('nama boleh kosng')
+  //   }
+  //   // else if (gaji <= 0) {
+  //   //   alert('gaji ga lebih kecil atau sama dengan 0')
+  //   // }
+  //   // else if (alamat === '') {
+  //   //   alert('alamat ga k boleh kosong')
+  //   // }
+  //   else if (singleObjekNama.includes(title)) {
+  //     alert(`tidak bisa ditambah karena ${title} sudah ada`);
+  //     // console.log('error  ', error);
+
+  //   } else {
+  //     this.setState({
+  //       datas: updateItems,
+  //       title: '',
+  //       id: id,
+  //       editItem: false,
+  //     });
+
+
+  //   }
+  // }

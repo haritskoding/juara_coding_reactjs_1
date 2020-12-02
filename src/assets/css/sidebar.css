@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.sidebar {
+  position: fixed;
+  right: 0;
+  width: 10px;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: auto;
+  scrollbar-width: none;
+  z-index: 3;
+  margin-top: 100px;
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar ul div.data {
+  margin-top: 20px;
+}
+
+div:first-child {
+  margin-top: 30px;
+}
+
+div:last-child {
+  margin-bottom: 130px;
+  width: 100%;
+  bottom: 0 !important;
+}
+
+.sidebar ul li {
+  display: block;
+  height: 100%;
+  color: white;
+  line-height: 65px;
+  font-size: 22px;
+  padding-left: 12px;
+  box-sizing: border-box;
+  border-top: 1px solid wheat;
+}
+
+.sidebar ul li:first-child {
+  border-top: none;
+}
+
+.sidebar ul li:last-child {
+  border-bottom: 5px solid yellow;
+}
+
+.sidebar ul li span {
+  margin-left: 29px;
+}
+
+.sidebar .footer {
+  position: fixed;
+  margin-left: -10px;
+  width: 310px;
+  color: white;
+  padding: 33px 20px 45px 20px;
+  font-size: 33px;
+  margin-left: 1px;
+  z-index: 1;
+  bottom: 0;
+  background: #f7497d;
+  font-weight: bold;
+  font-size: 33px;
+  margin-bottom: 2px;
+}
+
+.cart {
+  width: 350px !important;
+  margin-top: 23px;
+}
+
+.menuK {
+  width: 350px;
+  background: #f7497d;
+  margin-top: 80px;
+  margin-right: 350px !important;
+  margin-bottom: -10px !important;
+}
+
+.sidebar {
+  width: 350px !important;
+  margin-bottom: 30px !important;
+}

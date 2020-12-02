@@ -1,0 +1,65 @@
+.menuCart {
+  margin-top: 190px;
+  position: fixed;
+  right: 0;
+  width: 350px;
+  height: 100vh;
+  background: #f7497d;
+  margin-right: 10px;
+  overflow-y: scroll;
+  overflow-x: auto;
+  scrollbar-width: none;
+  z-index: 3;
+}
+.menuCart::-webkit-scrollbar {
+  display: none;
+}
+header {
+  position: fixed;
+  right: 0;
+  width: 350px;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  background: #f7497d;
+  user-select: none;
+  margin-right: 10px;
+}
+
+.menuCart ul div.data {
+  margin-top: 420px;
+}
+
+div:last-child {
+  margin-bottom: 400px;
+  width: 100%;
+  bottom: 0 !important;
+}
+
+.menuCart ul li {
+  display: block;
+  height: 100%;
+  color: white;
+  line-height: 65px;
+  font-size: 22px;
+  padding-left: 12px;
+  box-sizing: border-box;
+  border-top: 1px solid wheat;
+}
+
+.menuCart ul li:first-child {
+  border-top: none;
+}
+
+.menuCart ul li:last-child {
+  border-bottom: 5px solid yellow;
+}
+
+.menuCart ul li span {
+  margin-left: 29px;
+}
+
+.data {
+  width: 500px;
+}
